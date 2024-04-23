@@ -90,7 +90,7 @@
   justify-content: center;
 }
 
-.introduce_badge {
+.badge {
   align-items: center;
   border: 1px solid #565656;
   display: inline-flex;
@@ -102,7 +102,7 @@
   transition: color 0.3s, border-color 0.3s;
 }
 
-.introduce_badge:hover {
+.badge:hover {
   color: #0dcaf0;
 }
 
@@ -146,14 +146,16 @@
   font-size: 1.5rem;
 }
 
-.round-text:hover {
+/* .round-text:hover {
   border-color: #0dcaf0;
   transition: 0.3s ease-in-out;
-}
+} */
 
 .round-text {
   padding: 15px;
-  border: 1px solid white;
+  border: 1px solid #0dcaf0;
+  transition: 0.3s ease-in-out;
+
   border-radius: 100px;
   height: 175px;
   width: 175px;
@@ -176,4 +178,78 @@
   100% {
     transform: rotate(360deg);
   }
+}
+.about-section {
+  margin-top: 150px;
+}
+
+.resume-section {
+  margin-top: 150px;
+}
+.contact-section {
+  margin-top: 150px;
+}
+
+/* Timeline holder */
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+/* Timeline vertical line */
+ul.timeline:before {
+  content: " ";
+  background-color: #565656;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 30px;
+  transform: translateX(-50%);
+  width: 1px;
+}
+
+li.timeline-item {
+  margin: 20px 0;
+}
+
+/* Timeline item circle marker */
+li.timeline-item::before {
+  content: " ";
+  background: #565656;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #565656;
+  left: -7px;
+  width: 14px;
+  height: 14px;
+  z-index: 400;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  /* top: 30px; */
+}
+
+.timeline.item:hover {
+  background: red !important;
+}
+
+.resume-date {
+  color: #999;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: -5px;
+  transition: 0.3s;
+}
+.resume-subtitle {
+  color: #fff;
+  font-size: 24px;
+  line-height: normal;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.red-star {
+  color: #fc4545;
+  font-size: 12px;
+  margin-left: 5px;
 }

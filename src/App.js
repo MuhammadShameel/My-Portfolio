@@ -64,7 +64,7 @@ function App() {
 
           <div className="col-xl-7 col-12 ms-5 ">
             <div className="hero-section">
-              <span class="introduce_badge rounded-5">
+              <span class="badge rounded-5">
                 <i class="fa-solid fa-house"></i>&nbsp; INTRODUCE
               </span>
               <h1 class="main-text">
@@ -81,6 +81,92 @@ function App() {
                   alt="image not found"
                   className="round-text "
                 />
+              </div>
+            </div>
+            <div className="about-section">
+              <span class="badge rounded-5">
+                <i class="fa-solid fa-user"></i>&nbsp; ABOUT
+              </span>
+              <h2>
+                Every great design begin with an even{" "}
+                <span class="name_heading">better story</span>
+              </h2>
+              <p class="sub_heading">
+                Since beginning my journey as a freelance designer nearly 8
+                years ago, I've done remote work for agencies, consulted for
+                startups, and collaborated with talented people to create
+                digital products for both business and consumer use. I'm quietly
+                confident, naturally curious, and perpetually working on
+                improving my chopsone design problem at a time.
+              </p>
+            </div>
+            <div className="resume-section">
+              <span class="badge rounded-5">
+                <i class="fa-solid fa-briefcase"></i>&nbsp; RESUME
+              </span>
+              <ul class="timeline">
+                <li class="timeline-item  rounded ml-3 p-4 shadow">
+                  <span class="small resume-date text-gray">
+                    <i class="fa fa-clock-o mr-1"></i>21 March, 2019
+                  </span>
+                  <h2 class="h5 mb-0 resume-subtitle">Front End Developer</h2>
+
+                  <p class="text-small mt-2 font-weight-light">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque scelerisque diam non nisi semper, et elementum lorem
+                    ornare. Maecenas placerat facilisis mollis. Duis sagittis
+                    ligula in sodales vehicula....
+                  </p>
+                </li>
+                <li class="timeline-item  rounded ml-3 p-4 shadow">
+                  <span class="small resume-date text-gray">
+                    <i class="fa fa-clock-o mr-1"></i>5 April, 2019
+                  </span>
+                  <h2 class="h5 mb-0 resume-subtitle">Front End Developer</h2>
+                  <p class="text-small mt-2 font-weight-light">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque scelerisque diam non nisi semper, et elementum lorem
+                    ornare. Maecenas placerat facilisis mollis. Duis sagittis
+                    ligula in sodales vehicula....
+                  </p>
+                </li>
+                <li class="timeline-item  rounded ml-3 p-4 shadow">
+                  <span class="small resume-date text-gray">
+                    <i class="fa fa-clock-o mr-1"></i>18 August, 2019
+                  </span>
+                  <h2 class="h5 mb-0 resume-subtitle">Front End Developer</h2>
+                  <p class="text-small mt-2 font-weight-light">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque scelerisque diam non nisi semper, et elementum lorem
+                    ornare. Maecenas placerat facilisis mollis. Duis sagittis
+                    ligula in sodales vehicula....
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div className="contact-section">
+              <span class="badge rounded-5">
+                <i class="fa-solid fa-dollar-sign"></i>&nbsp; CONTACT
+              </span>
+              <h2>
+                Let's Work {""}
+                <span class="name_heading">Together!</span>
+              </h2>
+              <h3 class="mb-5">mshameelkz@gmail.com</h3>
+              <div>
+                <form action="mailto:mshameelkz@gmail.com" method="post">
+                  <div className="me-xl-5 me-lg-5 me-md-5 me-0">
+                    <div className="row">
+                      <div className="col-md-6">
+                        <div className="form-group">
+                          <label for="fullName">
+                            Full Name<span class="red-star">*</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
