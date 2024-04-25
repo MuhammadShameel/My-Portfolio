@@ -1,11 +1,12 @@
 .sidebar {
   margin: 10px 0px 10px 0px;
   border: 1px solid #565656;
-  /* height: 100%; */
   padding: 30px;
-  /* width: 300px !important; */
   left: 20px;
   overflow-y: auto !important;
+}
+
+.sidebar {
 }
 
 .title {
@@ -252,4 +253,46 @@ li.timeline-item::before {
   color: #fc4545;
   font-size: 12px;
   margin-left: 5px;
+}
+.form-control {
+  background-color: #0000 !important;
+  border: none;
+  outline: none !important;
+}
+
+input {
+  background-color: #0000 !important;
+  border: none !important;
+  color: #fff !important;
+  display: block !important;
+  font-size: 18px !important;
+  margin: 0 0 34px !important;
+  outline: none !important;
+  padding: 5px 3px 7.5px !important;
+  transition: 0.2s !important;
+  width: 100% !important;
+}
+
+.message {
+  border-radius: 0;
+  height: 150px;
+  border-bottom: 1px solid #555 !important;
+  resize: none;
+}
+
+label {
+  color: #fff;
+  display: block;
+  font-size: 12px;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #0dcaf0;
+  border: none;
+  border-radius: 30px;
+  color: #000;
+  padding: 12px 58px;
+  text-align: center;
 }
