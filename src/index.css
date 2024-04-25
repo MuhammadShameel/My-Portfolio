@@ -3,19 +3,19 @@ body {
   color: white;
   overflow-x: hidden;
 }
-.container {
+/* .container {
   width: 100%;
   padding-right: 5px !important;
   padding-left: 5px !important;
   margin-right: auto;
   margin-left: auto;
-}
-
+} */
+/* 
 @media (min-width: 1200px) {
   .container {
     max-width: 1340px;
   }
-}
+} */
 
 .primary-text-color {
   color: #999999;
@@ -27,7 +27,14 @@ body {
 
 @media (min-width: 992px) and (max-width: 2024px) {
   .sidebar {
+    margin: 10px 0;
+    border: 1px solid #565656;
+    padding: 30px;
     position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    overflow-y: auto;
   }
 }
 
