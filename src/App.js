@@ -111,11 +111,8 @@ function App() {
                   </span>
                   <h2 class="h5 mb-0 resume-subtitle">Front End Developer</h2>
 
-                  <p class="text-small mt-2 font-weight-light">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque scelerisque diam non nisi semper, et elementum lorem
-                    ornare. Maecenas placerat facilisis mollis. Duis sagittis
-                    ligula in sodales vehicula....
+                  <p class="text-small mt-2 font-weight-light text-gray">
+                    Envato Market
                   </p>
                 </li>
                 <li class="timeline-item  rounded ml-3 p-4 shadow">
@@ -123,11 +120,8 @@ function App() {
                     <i class="fa fa-clock-o mr-1"></i>5 April, 2019
                   </span>
                   <h2 class="h5 mb-0 resume-subtitle">Front End Developer</h2>
-                  <p class="text-small mt-2 font-weight-light">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque scelerisque diam non nisi semper, et elementum lorem
-                    ornare. Maecenas placerat facilisis mollis. Duis sagittis
-                    ligula in sodales vehicula....
+                  <p class="text-small mt-2 font-weight-light text-gray">
+                    Envato Market
                   </p>
                 </li>
                 <li class="timeline-item  rounded ml-3 p-4 shadow">
@@ -135,11 +129,8 @@ function App() {
                     <i class="fa fa-clock-o mr-1"></i>18 August, 2019
                   </span>
                   <h2 class="h5 mb-0 resume-subtitle">Front End Developer</h2>
-                  <p class="text-small mt-2 font-weight-light">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque scelerisque diam non nisi semper, et elementum lorem
-                    ornare. Maecenas placerat facilisis mollis. Duis sagittis
-                    ligula in sodales vehicula....
+                  <p class="text-small mt-2 font-weight-light text-gray">
+                    Envato Market
                   </p>
                 </li>
               </ul>

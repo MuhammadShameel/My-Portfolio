@@ -38,9 +38,7 @@
 .copyright-text {
   font-size: 12px;
 }
-/* .hire-me-btn {
-  background-color: #0dcaf0;
-} */
+
 .btn-blue {
   background-color: #0dcaf0;
   color: black;
@@ -51,23 +49,7 @@
   transition: 0.3s ease-out;
   color: #0dcaf0;
 }
-/* .social-icons {
-  margin: 0.5rem;
-  border-radius: 20px;
-  padding: 10px;
-  transition: color 0.3s, border-color 0.3s;
-  border: 1px solid #999999;
-}
 
-.social-icons:hover {
-  color: #0dcaf0;
-  border-color: #0dcaf0;
-}
-.social-media-icons {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-} */
 .social-icons {
   margin: 0.5rem;
   border-radius: 20px;
