@@ -23,20 +23,20 @@ function App() {
                 <div className="my-name">M.Shameel</div>
                 <div className="front-end-developer">(Front-End-Developer)</div>
               </div>
-              <div className="profile-img mt-4 d-flex justify-content-center ">
+              <div className="profile-img mt-3 d-flex justify-content-center ">
                 <img
                   src={"./images/me.png"}
                   alt="image not found"
                   className="profile-png "
                 />
               </div>
-              <div className="email-address mt-4">
+              <div className="email-address mt-3">
                 <a href="mailto:mshameelkz@gmail.com" className="email">
                   mshameelkz@gmail.com
                 </a>
                 <div className="address">Karachi, Pakistan</div>
               </div>
-              <div className="copyright mt-4 primary-text-color">
+              <div className="copyright mt-3 primary-text-color">
                 <div className="text-center copyright-text">
                   <a
                     className="primary-text-color text-decoration-none "
@@ -46,7 +46,7 @@ function App() {
                   </a>
                 </div>
               </div>
-              <div className="social-media-icons mt-4 ">
+              <div className="social-media-icons mt-3 ">
                 <FontAwesomeIcon icon={faTwitter} className="social-icons" />
                 <FontAwesomeIcon icon={faGithub} className="social-icons" />
                 <FontAwesomeIcon icon={faUpwork} className="social-icons" />
@@ -162,7 +162,128 @@ function App() {
                           <label for="fullName">
                             Full Name<span class="red-star">*</span>
                           </label>
+                          <input
+                            type="text"
+                            class="form-control border-0"
+                            id="fullName"
+                            name="fullName"
+                            placeholder="Your full name"
+                            required=""
+                          ></input>
                         </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="email">
+                            Email<span class="red-star">*</span>
+                          </label>
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            name="email"
+                            placeholder="Your email address"
+                            required=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="phoneNumber">
+                            Phone Number
+                            <span class="optional ms-1">(optional)</span>
+                          </label>
+                          <input
+                            type="tel"
+                            class="form-control"
+                            id="phoneNumber"
+                            name="phoneNumber"
+                            placeholder="Your phone number"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-xl-0 mb-lg-0 mb-md-0 mb-4">
+                        <div class="form-group">
+                          <label for="subject">
+                            Subject<span class="red-star">*</span>
+                          </label>
+                          <select
+                            class="form-control select_container"
+                            id="subject"
+                            name="subject"
+                            required=""
+                          >
+                            <option value="">Select Subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="support">Support Request</option>
+                            <option value="feedback">Feedback</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label for="budget">
+                            Your Budget
+                            <span class="optional ms-1">(optional)</span>
+                          </label>
+                          <input
+                            type="number"
+                            class="form-control"
+                            id="budget"
+                            placeholder="A range budget for your project"
+                            name="budget"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label for="message">
+                            Message<span class="red-star">*</span>
+                          </label>
+                          <textarea
+                            class="form-control message"
+                            id="message"
+                            name="message"
+                            rows="4"
+                            placeholder="Wrire your message here ..."
+                            required=""
+                          ></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="row mb-5 aos-init aos-animate"
+                      data-aos="fade-right"
+                    >
+                      <div class="col-md-12">
+                        <div class="form-group mt-5">
+                          <label
+                            for="attachment"
+                            class="d-flex align-items-center"
+                          >
+                            <i class="fa-solid fa-cloud-arrow-up me-3"></i>Add
+                            an attachment
+                          </label>
+                          <input
+                            type="file"
+                            class="form-control-file d-none"
+                            id="attachment"
+                            name="attachment"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary">
+                          Send Message
+                        </button>
                       </div>
                     </div>
                   </div>
