@@ -71,6 +71,22 @@ h2 {
   .percentage {
     font-size: 30px !important;
   }
+  .side-menu {
+    background: #000;
+    border: 1px solid #575757;
+    border-radius: 30px;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none !important;
+    padding: 24px 0;
+    position: fixed !important;
+    right: 69px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 55px;
+    z-index: 20;
+  }
 }
 .proficiency-content {
   border-radius: 85px;
