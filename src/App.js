@@ -9,13 +9,6 @@ import {
   faShapes,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-// import {
-//   faHome,
-//   faUser,
-//   faBriefcase,
-//   faShapes,
-//   faEnvelope,
-// } from "@fortawesome/free-solid-svg-icons";
 
 import {
   faTwitter,
