@@ -424,27 +424,29 @@ function App() {
             </div>
           </div>
 
-          <div className="col-xl-1">
-            <ul className="side-menu">
-              <li>
-                <FontAwesomeIcon icon={faTwitter} className="social-icons" />
-              </li>
-              <li>
-                <FontAwesomeIcon icon={faTwitter} className="social-icons" />
-              </li>
-              <li>
-                <FontAwesomeIcon icon={faTwitter} className="social-icons" />
-              </li>
-              <li>
-                <FontAwesomeIcon icon={faTwitter} className="social-icons" />
-              </li>
-              <li>
-                <FontAwesomeIcon icon={faTwitter} className="social-icons" />
-              </li>
-              <li>
-                <FontAwesomeIcon icon={faTwitter} className="social-icons" />
-              </li>
-            </ul>
+          <div className="sidemenu-section">
+            <div className="col-xl-1">
+              <ul className="side-menu">
+                <li>
+                  <FontAwesomeIcon icon={faTwitter} className="social-icons" />
+                </li>
+                <li>
+                  <FontAwesomeIcon icon={faTwitter} className="social-icons" />
+                </li>
+                <li>
+                  <FontAwesomeIcon icon={faTwitter} className="social-icons" />
+                </li>
+                <li>
+                  <FontAwesomeIcon icon={faTwitter} className="social-icons" />
+                </li>
+                <li>
+                  <FontAwesomeIcon icon={faTwitter} className="social-icons" />
+                </li>
+                <li>
+                  <FontAwesomeIcon icon={faTwitter} className="social-icons" />
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
