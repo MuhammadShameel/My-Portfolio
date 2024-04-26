@@ -56,3 +56,33 @@ h2 {
 .text-gray {
   color: #999999;
 }
+
+@media (min-width: 1200px) {
+  .proficiency {
+    margin-bottom: 45px;
+  }
+}
+@media (min-width: 1200px) {
+  .proficiency-content {
+    border-radius: 85px;
+    margin-bottom: 20px;
+    padding: 54px 30px 20px;
+  }
+  .percentage {
+    font-size: 30px !important;
+  }
+}
+.proficiency-content {
+  border-radius: 85px;
+  margin-bottom: 20px;
+  padding: 54px 30px 20px;
+}
+.percentage {
+  font-size: 30px !important;
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+  .hero-section {
+    margin-top: 50px;
+  }
+}

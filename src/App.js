@@ -62,8 +62,8 @@ function App() {
             </div>
           </div>
 
-          <div className="col-xl-7 col-12 ms-5 ">
-            <div className="hero-section">
+          <div className="col-xl-7 col-12 ">
+            <div className="hero-section ">
               <span class="badge rounded-5">
                 <i class="fa-solid fa-house"></i>&nbsp; INTRODUCE
               </span>
@@ -104,6 +104,9 @@ function App() {
               <span class="badge rounded-5">
                 <i class="fa-solid fa-briefcase"></i>&nbsp; RESUME
               </span>
+              <h2>
+                Education & <span class="name_heading">Experience</span>
+              </h2>
               <ul class="timeline">
                 <li class="timeline-item  rounded ml-3 p-4 shadow">
                   <span class="small resume-date text-gray">
@@ -134,6 +137,144 @@ function App() {
                   </p>
                 </li>
               </ul>
+            </div>
+            <div className="skills-section">
+              <span class="badge rounded-5">
+                <i class="fa-solid fa-shapes"></i>&nbsp; MY SKILLS
+              </span>
+              <h2>
+                My<span class="name_heading">Advantages</span>
+              </h2>
+              <div className="row text-center ">
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
+                  <div className="proficiency">
+                    <div className="proficiency-content">
+                      <img src="./images/html.png" height="65" alt="Html" />
+                      <h1 class="percentage">50%</h1>
+                    </div>
+                    <p class="text-light">HTML</p>
+                  </div>
+                </div>
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
+                  <div className="proficiency">
+                    <div className="proficiency-content">
+                      <img src="./images/css.png" height="65" alt="Html" />
+                      <h1 class="percentage">40%</h1>
+                    </div>
+                    <p class="text-light">CSS</p>
+                  </div>
+                </div>{" "}
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
+                  <div className="proficiency">
+                    <div className="proficiency-content">
+                      <img
+                        src="./images/javaScript.png"
+                        height="65"
+                        alt="Html"
+                      />
+                      <h1 class="percentage">27%</h1>
+                    </div>
+                    <p class="text-light">JavaScript</p>
+                  </div>
+                </div>{" "}
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
+                  <div className="proficiency">
+                    <div className="proficiency-content">
+                      <img src="./images/react.png" height="65" alt="Html" />
+                      <h1 class="percentage">30%</h1>
+                    </div>
+                    <p class="text-light">React</p>
+                  </div>
+                </div>{" "}
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
+                  <div className="proficiency">
+                    <div className="proficiency-content">
+                      <img
+                        src="./images/typeScript.png"
+                        height="65"
+                        alt="Html"
+                      />
+                      <h1 class="percentage">20%</h1>
+                    </div>
+                    <p class="text-light">TypeScript</p>
+                  </div>
+                </div>{" "}
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
+                  <div className="proficiency">
+                    <div className="proficiency-content">
+                      <img src="./images/nextJs.jpeg" height="65" alt="Html" />
+                      <h1 class="percentage">50%</h1>
+                    </div>
+                    <p class="text-light">Next JS</p>
+                  </div>
+                </div>{" "}
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
+                  <div className="proficiency">
+                    <div className="proficiency-content">
+                      <img src="./images/react.png" height="65" alt="Html" />
+                      <h1 class="percentage">20%</h1>
+                    </div>
+                    <p class="text-light">React Native</p>
+                  </div>
+                </div>{" "}
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
+                  <div className="proficiency">
+                    <div className="proficiency-content">
+                      <img
+                        src="./images/tailwindCss.png"
+                        height="65"
+                        alt="Html"
+                      />
+                      <h1 class="percentage">45%</h1>
+                    </div>
+                    <p class="text-light">Tailwind CSS</p>
+                  </div>
+                </div>{" "}
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
+                  <div className="proficiency">
+                    <div className="proficiency-content">
+                      <img
+                        src="./images/bootstrap.png"
+                        height="65"
+                        alt="Html"
+                      />
+                      <h1 class="percentage">50%</h1>
+                    </div>
+                    <p class="text-light">Bootstrap</p>
+                  </div>
+                </div>{" "}
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
+                  <div className="proficiency">
+                    <div className="proficiency-content">
+                      <img src="./images/figma.png" height="65" alt="Html" />
+                      <h1 class="percentage">25%</h1>
+                    </div>
+                    <p class="text-light">Figma</p>
+                  </div>
+                </div>{" "}
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
+                  <div className="proficiency">
+                    <div className="proficiency-content">
+                      <img src="./images/firebase.png" height="65" alt="Html" />
+                      <h1 class="percentage">20%</h1>
+                    </div>
+                    <p class="text-light">Firebase</p>
+                  </div>
+                </div>{" "}
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 ">
+                  <div className="proficiency">
+                    <div className="proficiency-content">
+                      <img
+                        src="./images/circle-github.png"
+                        height="65"
+                        alt="Html"
+                      />
+                      <h1 class="percentage">45%</h1>
+                    </div>
+                    <p class="text-light">Github</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="contact-section">
               <span class="badge rounded-5">
@@ -272,7 +413,7 @@ function App() {
                     </div>
                     <div class="row">
                       <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary">
+                        <button type="submit" class="btn btn-blue btn-primary">
                           Send Message
                         </button>
                       </div>
