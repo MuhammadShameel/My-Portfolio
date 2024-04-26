@@ -2,7 +2,20 @@ import "./App.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import {
+  faHome,
+  faUser,
+  faBriefcase,
+  faShapes,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
+// import {
+//   faHome,
+//   faUser,
+//   faBriefcase,
+//   faShapes,
+//   faEnvelope,
+// } from "@fortawesome/free-solid-svg-icons";
 
 import {
   faTwitter,
@@ -425,28 +438,38 @@ function App() {
           </div>
 
           <div className="sidemenu-section">
-            <div className="col-xl-1">
-              <ul className="side-menu">
-                <li>
-                  <FontAwesomeIcon icon={faTwitter} className="social-icons" />
-                </li>
-                <li>
-                  <FontAwesomeIcon icon={faTwitter} className="social-icons" />
-                </li>
-                <li>
-                  <FontAwesomeIcon icon={faTwitter} className="social-icons" />
-                </li>
-                <li>
-                  <FontAwesomeIcon icon={faTwitter} className="social-icons" />
-                </li>
-                <li>
-                  <FontAwesomeIcon icon={faTwitter} className="social-icons" />
-                </li>
-                <li>
-                  <FontAwesomeIcon icon={faTwitter} className="social-icons" />
-                </li>
-              </ul>
-            </div>
+            <ul className="side-menu">
+              <li>
+                <FontAwesomeIcon
+                  icon={faHome}
+                  className="social-icons-side-menu"
+                />
+              </li>
+              <li>
+                <FontAwesomeIcon
+                  icon={faUser}
+                  className="social-icons-side-menu"
+                />
+              </li>
+              <li>
+                <FontAwesomeIcon
+                  icon={faBriefcase}
+                  className="social-icons-side-menu"
+                />
+              </li>
+              <li>
+                <FontAwesomeIcon
+                  icon={faShapes}
+                  className="social-icons-side-menu"
+                />
+              </li>
+              <li>
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="social-icons-side-menu"
+                />
+              </li>
+            </ul>
           </div>
         </div>
       </div>
