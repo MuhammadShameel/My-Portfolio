@@ -65,6 +65,10 @@
   color: #999999;
 }
 
+.social-icons-side-menu:hover {
+  color: #0dcaf0;
+  cursor: pointer;
+}
 .social-icons:hover {
   color: #0dcaf0;
   border-color: #0dcaf0;

@@ -284,7 +284,7 @@ function App() {
             </div>
             <div className="contact-section">
               <span class="badge rounded-5">
-                <i class="fa-solid fa-dollar-sign"></i>&nbsp; CONTACT
+                <i class="fa-solid fa-envelope"></i>&nbsp; CONTACT
               </span>
               <h2>
                 Let's Work {""}
