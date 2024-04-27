@@ -94,16 +94,17 @@ function App() {
                 <i class="fa-solid fa-user"></i>&nbsp; ABOUT
               </span>
               <h2>
-                Every great design begin with an even{" "}
-                <span class="name_heading">better story</span>
+                Crafting Stories{" "}
+                <span class="name_heading">Through Design</span>
               </h2>
               <p class="sub_heading">
-                Since beginning my journey as a freelance designer nearly 8
-                years ago, I've done remote work for agencies, consulted for
-                startups, and collaborated with talented people to create
-                digital products for both business and consumer use. I'm quietly
-                confident, naturally curious, and perpetually working on
-                improving my chopsone design problem at a time.
+                Ever since I embarked on my journey as a creative designer, I've
+                been driven by the power of storytelling. I've had the privilege
+                of collaborating with talented individuals to bring digital
+                experiences to life, working on projects that resonate with
+                users and leave a lasting impact. With a blend of confidence and
+                curiosity, I approach each design challenge as an opportunity
+                for growth, constantly refining my craft one project at a time.
               </p>
             </div>
             <div className="resume-section" id="resume">
