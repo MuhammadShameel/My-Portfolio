@@ -69,7 +69,7 @@ function App() {
           </div>
 
           <div className="col-xl-7 col-12 ">
-            <div className="hero-section ">
+            <div className="hero-section " id="home">
               <span class="badge rounded-5">
                 <i class="fa-solid fa-house"></i>&nbsp; INTRODUCE
               </span>
@@ -89,7 +89,7 @@ function App() {
                 />
               </div>
             </div>
-            <div className="about-section">
+            <div className="about-section" id="about">
               <span class="badge rounded-5">
                 <i class="fa-solid fa-user"></i>&nbsp; ABOUT
               </span>
@@ -106,7 +106,7 @@ function App() {
                 improving my chopsone design problem at a time.
               </p>
             </div>
-            <div className="resume-section">
+            <div className="resume-section" id="resume">
               <span class="badge rounded-5">
                 <i class="fa-solid fa-briefcase"></i>&nbsp; RESUME
               </span>
@@ -144,7 +144,7 @@ function App() {
                 </li>
               </ul>
             </div>
-            <div className="skills-section">
+            <div className="skills-section" id="skills">
               <span class="badge rounded-5">
                 <i class="fa-solid fa-shapes"></i>&nbsp; MY SKILLS
               </span>
@@ -282,7 +282,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="contact-section">
+            <div className="contact-section" id="contact">
               <span class="badge rounded-5">
                 <i class="fa-solid fa-envelope"></i>&nbsp; CONTACT
               </span>
@@ -433,34 +433,44 @@ function App() {
           <div className="sidemenu-section">
             <ul className="side-menu">
               <li>
-                <FontAwesomeIcon
-                  icon={faHome}
-                  className="social-icons-side-menu"
-                />
+                <a href="#home">
+                  <FontAwesomeIcon
+                    icon={faHome}
+                    className="social-icons-side-menu"
+                  />
+                </a>
               </li>
               <li>
-                <FontAwesomeIcon
-                  icon={faUser}
-                  className="social-icons-side-menu"
-                />
+                <a href="#about">
+                  <FontAwesomeIcon
+                    icon={faUser}
+                    className="social-icons-side-menu"
+                  />
+                </a>
               </li>
               <li>
-                <FontAwesomeIcon
-                  icon={faBriefcase}
-                  className="social-icons-side-menu"
-                />
+                <a href="#resume">
+                  <FontAwesomeIcon
+                    icon={faBriefcase}
+                    className="social-icons-side-menu"
+                  />
+                </a>
               </li>
               <li>
-                <FontAwesomeIcon
-                  icon={faShapes}
-                  className="social-icons-side-menu"
-                />
+                <a href="#skills">
+                  <FontAwesomeIcon
+                    icon={faShapes}
+                    className="social-icons-side-menu"
+                  />
+                </a>
               </li>
               <li>
-                <FontAwesomeIcon
-                  icon={faEnvelope}
-                  className="social-icons-side-menu"
-                />
+                <a href="#contact">
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    className="social-icons-side-menu"
+                  />
+                </a>
               </li>
             </ul>
           </div>
