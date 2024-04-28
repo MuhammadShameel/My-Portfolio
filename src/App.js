@@ -119,7 +119,9 @@ function App() {
                   <span class="small resume-date text-gray">
                     <i class="fa fa-clock-o mr-1"></i>1 January, 2023
                   </span>
-                  <h2 class="h5 mb-0 resume-subtitle">Front End Developer</h2>
+                  <h2 class="h5 mb-0 resume-subtitle">
+                    Front End Developer (Remote)
+                  </h2>
 
                   <p class="text-small mt-2 font-weight-light text-gray">
                     Agric 360 Developers
@@ -129,7 +131,9 @@ function App() {
                   <span class="small resume-date text-gray">
                     <i class="fa fa-clock-o mr-1"></i>27 August, 2023
                   </span>
-                  <h2 class="h5 mb-0 resume-subtitle">Front End Developer</h2>
+                  <h2 class="h5 mb-0 resume-subtitle">
+                    Front End Developer (On-Site)
+                  </h2>
                   <p class="text-small mt-2 font-weight-light text-gray">
                     Tecizeverything
                   </p>
@@ -420,6 +424,7 @@ function App() {
                 </form>
               </div>
             </div>
+            <div className="portfolio-section" id="portfolio"></div>
           </div>
 
           <div className="sidemenu-section">
