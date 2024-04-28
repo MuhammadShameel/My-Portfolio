@@ -117,21 +117,21 @@ function App() {
               <ul class="timeline">
                 <li class="timeline-item  rounded ml-3 p-4 shadow">
                   <span class="small resume-date text-gray">
-                    <i class="fa fa-clock-o mr-1"></i>21 March, 2019
+                    <i class="fa fa-clock-o mr-1"></i>1 January, 2023
                   </span>
                   <h2 class="h5 mb-0 resume-subtitle">Front End Developer</h2>
 
                   <p class="text-small mt-2 font-weight-light text-gray">
-                    Envato Market
+                    Agric 360 Developers
                   </p>
                 </li>
                 <li class="timeline-item  rounded ml-3 p-4 shadow">
                   <span class="small resume-date text-gray">
-                    <i class="fa fa-clock-o mr-1"></i>5 April, 2019
+                    <i class="fa fa-clock-o mr-1"></i>27 July, 2023
                   </span>
                   <h2 class="h5 mb-0 resume-subtitle">Front End Developer</h2>
                   <p class="text-small mt-2 font-weight-light text-gray">
-                    Envato Market
+                    Tecizeverything
                   </p>
                 </li>
                 <li class="timeline-item  rounded ml-3 p-4 shadow">
