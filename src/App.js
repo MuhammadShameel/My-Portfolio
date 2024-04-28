@@ -127,7 +127,7 @@ function App() {
                 </li>
                 <li class="timeline-item  rounded ml-3 p-4 shadow">
                   <span class="small resume-date text-gray">
-                    <i class="fa fa-clock-o mr-1"></i>27 July, 2023
+                    <i class="fa fa-clock-o mr-1"></i>27 August, 2023
                   </span>
                   <h2 class="h5 mb-0 resume-subtitle">Front End Developer</h2>
                   <p class="text-small mt-2 font-weight-light text-gray">
