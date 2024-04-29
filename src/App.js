@@ -424,7 +424,9 @@ function App() {
                 </form>
               </div>
             </div>
-            <div className="portfolio-section" id="portfolio"></div>
+            <div className="portfolio-section" id="portfolio">
+              <div className="portfolio-content"></div>
+            </div>
           </div>
 
           <div className="sidemenu-section">
