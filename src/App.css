@@ -135,11 +135,6 @@
   font-size: 1.5rem;
 }
 
-/* .round-text:hover {
-  border-color: #0dcaf0;
-  transition: 0.3s ease-in-out;
-} */
-
 .round-text {
   padding: 15px;
   border: 1px solid #0dcaf0;
