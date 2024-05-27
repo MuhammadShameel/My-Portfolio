@@ -117,6 +117,17 @@ function App() {
               <ul class="timeline">
                 <li class="timeline-item  rounded ml-3 p-4 shadow">
                   <span class="small resume-date text-gray">
+                    <i class="fa fa-clock-o mr-1"></i>27 August, 2023
+                  </span>
+                  <h2 class="h5 mb-0 resume-subtitle">
+                    Front End Developer (On-Site)
+                  </h2>
+                  <p class="text-small mt-2 font-weight-light text-gray">
+                    Tecizeverything
+                  </p>
+                </li>
+                <li class="timeline-item  rounded ml-3 p-4 shadow">
+                  <span class="small resume-date text-gray">
                     <i class="fa fa-clock-o mr-1"></i>1 January, 2023
                   </span>
                   <h2 class="h5 mb-0 resume-subtitle">
@@ -125,17 +136,6 @@ function App() {
 
                   <p class="text-small mt-2 font-weight-light text-gray">
                     Agric 360 Developers
-                  </p>
-                </li>
-                <li class="timeline-item  rounded ml-3 p-4 shadow">
-                  <span class="small resume-date text-gray">
-                    <i class="fa fa-clock-o mr-1"></i>27 August, 2023
-                  </span>
-                  <h2 class="h5 mb-0 resume-subtitle">
-                    Front End Developer (On-Site)
-                  </h2>
-                  <p class="text-small mt-2 font-weight-light text-gray">
-                    Tecizeverything
                   </p>
                 </li>
               </ul>
