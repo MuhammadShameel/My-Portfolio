@@ -88,7 +88,7 @@
   font-weight: 400;
   margin-bottom: 53px;
   padding: 9px 20px;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: color 0.3s, border-color 0.3s;
 }
 
